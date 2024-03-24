@@ -10,21 +10,23 @@
     "authentication",
     "identity"
   ],
-  "author": {
-    "name": "Jared Hanson",
-    "email": "jaredhanson@gmail.com",
-    "url": "https://www.jaredhanson.me/"
-  },
+  "contributors": [
+    {
+      "name": "Jared Hanson",
+      "email": "jaredhanson@gmail.com",
+      "url": "https://www.jaredhanson.me/"
+    },
+    {
+      "name": "Avinash Lakhmawad",
+      "email": "avinash@codin.app"
+    }
+  ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/jaredhanson/passport-google-openidconnect.git"
+    "url": "git://github.com/Codin-App/passport-google-openidconnect"
   },
   "bugs": {
-    "url": "http://github.com/jaredhanson/passport-google-openidconnect/issues"
-  },
-  "funding": {
-    "type": "github",
-    "url": "https://github.com/sponsors/jaredhanson"
+    "url": "https://github.com/Codin-App/passport-google-openidconnect/issues"
   },
   "license": "MIT",
   "licenses": [
@@ -35,7 +37,7 @@
   ],
   "main": "./lib",
   "dependencies": {
-    "passport-openidconnect": "0.1.x"
+    "passport-openidconnect": "git+https://github.com/Codin-App/passport-openidconnect.git"
   },
   "devDependencies": {
     "make-node": "0.4.6",
